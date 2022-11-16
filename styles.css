@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: hsla(210, 40%, 40%, 1);
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+h1 {
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    padding: 0.5rem;
+}
+
+main {
+    padding: 1.25rem;
+}
