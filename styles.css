@@ -5,13 +5,14 @@
     font-family: 'Roboto', sans-serif;
 }
 
-/*body {
-    background-color: hsla(210, 5%, 97%, 1);
-}*/
+body {
+    background-color: hsla(210, 10%, 8%, 1);
+    color: hsla(210, 10%, 80%, 1);
+}
 
 header {
-    /*background-color: hsla(210, 40%, 45%, 1);*/
-    color: hsla(210, 40%, 45%, 1);
+    background-color: hsla(210, 15%, 6%, 1);
+    color: hsla(210, 40%, 50%, 1);
     width: 100%;
     padding: 15px 0px;
     display: flex;
