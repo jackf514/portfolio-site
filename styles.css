@@ -66,6 +66,23 @@ h2 {
 }
 
 p {
-    line-height: 1.25rem;
+    line-height: 1.5rem;
     font-weight: 300;
+}
+
+#about p {
+    width: 70%;
+    display: inline-block;
+}
+
+#about div {
+    width: 30%;
+    display: inline-flex;
+    float: right;
+    justify-content: center;
+}
+
+#about img {
+    height: 225px;
+    width: auto;
 }
