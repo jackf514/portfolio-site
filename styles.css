@@ -83,6 +83,43 @@ section {
     padding: 10px;
 }
 
+#style-selector {
+    margin-top: 0px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+#style-selector span {
+    width: 100%;
+    margin-bottom: 10px;
+    font-weight: 400;    
+}
+
+#style-selector label {
+    margin-left: 10px;    
+}
+
+#style-selector a {
+    text-decoration: none;
+    font-size: 1rem;
+    color:hsla(210, 40%, 60%, 1)
+}
+
+select {
+    background-color: hsla(210, 15%, 6%, 1);
+    color:hsla(210, 40%, 60%, 1);
+    margin-left: 5px;
+    padding: 3px;
+    border-radius: 5px;
+    width: 8rem;
+    transition: width 2s;
+}
+
+select:focus {
+    border-color: hsla(210, 40%, 20%, 1);
+    width: auto;
+}
+
 #about p {
     width: 70%;
     display: inline-block;
