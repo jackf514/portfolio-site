@@ -186,7 +186,12 @@ option:hover {
     width: 100%;
 }
 
-#contact i, iconify-icon {
+.container.centered {
+    display: flex;
+    align-items: center;
     margin: 15px auto;
-    padding: 0px 15px;
+}
+
+i, iconify-icon {    
+    padding: 15px 35px;
 }
