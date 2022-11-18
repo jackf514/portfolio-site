@@ -146,3 +146,37 @@ option:hover {
     height: 250px;
     width: auto;
 }
+
+#projects {
+    flex-wrap: wrap;
+}
+
+#projects p {
+    width: 100%;
+}
+
+#projects ul {
+    padding-left: 20px;
+}
+
+#projects a {
+    text-decoration: none;    
+}
+
+#projects li {
+    list-style: none;
+    border: 1px solid hsla(210, 40%, 20%, 1);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0px;
+    color:hsla(210, 10%, 80%, 1);
+}
+
+#projects li:hover {
+    border-width: 2px;
+    background-color: hsla(210, 15%, 6%, 1);
+}
+
+#projects li em {
+    color:hsla(210, 10%, 60%, 1)
+}
