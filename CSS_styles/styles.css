@@ -147,10 +147,6 @@ option:hover {
     width: auto;
 }
 
-#projects {
-    flex-wrap: wrap;
-}
-
 #projects p {
     width: 100%;
 }
@@ -184,4 +180,13 @@ option:hover {
 
 #projects li em {
     color:hsla(210, 10%, 60%, 1)
+}
+
+#contact p {
+    width: 100%;
+}
+
+#contact i, iconify-icon {
+    margin: 15px auto;
+    padding: 0px 15px;
 }
