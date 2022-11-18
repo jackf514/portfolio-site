@@ -177,6 +177,11 @@ option:hover {
     background-color: hsla(210, 15%, 6%, 1);
 }
 
+#projects li:active {
+    border-width: 0px;
+    background-color: hsla(210, 10%, 15%, 1);
+}
+
 #projects li em {
     color:hsla(210, 10%, 60%, 1)
 }
