@@ -9,7 +9,6 @@ const randomFacts = [
 
 const getFunFact = (randFacts) => {
     let funFact = randFacts[Math.floor(Math.random()*randFacts.length)];
-    console.log(funFact);
     return funFact
 }
 
@@ -17,5 +16,29 @@ document.getElementById("fact").innerHTML = getFunFact(randomFacts);
 /*-----------*/
 
 /* Replace Stylesheet Section */
+const selectDesc = {
+    default: {
+        style: 'default',
+        description: 'My original styling. This is what I came up with without any styling guidelines or restraints'
+    },
+    default_light: {
+        style: 'default-lt',
+        description: 'My original styling but in a light theme rather than a dark theme. Only the colors have changed'
+    },
+    Minimal_Apple: {
+        style: 'minimal',
+        description: "This style is very modern and minimalist, inspired by Apple's web design"
+    },
+    Round_Google: {
+        style: 'rounded',
+        description: "This style is fun and has lots of rounded edges, similar to Google's web design"
+    }
+};
 
+let styleChoice = document.getElementById("style").value;
+const changeStyle = () => {
+    styleChoice = document.getElementById("style").value;
+}
+
+document.getElementById("style").addEventListener('change', styleChoice())
 /*----------*/
