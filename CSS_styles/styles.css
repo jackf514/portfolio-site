@@ -170,6 +170,7 @@ option:hover {
 
 #projects li:hover {
     border-width: 2px;
+    padding: 14px;
     background-color: hsla(210, 15%, 6%, 1);
 }
 
@@ -186,12 +187,21 @@ option:hover {
     width: 100%;
 }
 
+#contact a {
+    color: hsla(210, 10%, 80%, 1);
+    margin: 15px 45px;
+}
+
 .container.centered {
     display: flex;
     align-items: center;
     margin: 15px auto;
 }
 
-i, iconify-icon {    
-    padding: 15px 35px;
+i:hover, iconify-icon:hover {
+    color:hsla(210, 50%, 40%, 1);
+}
+
+i:active, iconify-icon:active {
+    color:hsla(210, 40%, 20%, 1);
 }
