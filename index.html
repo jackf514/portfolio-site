@@ -19,26 +19,34 @@
                 <ul>
                     <a href="#about"><li>About Me</li></a>
                     <a href="#projects"><li>My Projects</li></a>
-                    <a href="#example-site"><li>Example Site</li></a>
                     <a href="#contact"><li>Contact Me</li></a>
                 </ul>
             </nav>
         </header>
         <main>
 
-            <!-- Style Selection -->
-            <section id="style-selector">
-                <span>Use the dropdown to change the style of the webpage! Click <a href="#example-site">here</a> to see an example site with your choosen style!</span>
-                <form action="/script.js" method="get">
-                    <label for="style">Choose a style:</label>
-                    <select id="style" name="style">
-                        <option value="default">Default</option>
-                        <option value="default-lt">Default (light theme)</option>
-                        <option value="minimal">Modern and minimalist (Apple style)</option>
-                        <option value="rounded">Rounded and fun (Google style)</option>
-                    </select>
-                </form>
-            </section>
+            <div class="container">
+                    <!-- Style Selection -->
+                <section id="style-selector">
+                    <span>Use the dropdown to change the style of the webpage!</span>
+                    <form action="/script.js" method="get">
+                        <label for="style">Choose a style:</label>
+                        <select id="style" name="style">
+                            <option value="default">Default</option>
+                            <option value="default-lt">Default (light theme)</option>
+                            <option value="minimal">Modern and minimalist (Apple style)</option>
+                            <option value="rounded">Rounded and fun (Google style)</option>
+                        </select>
+                    </form>
+                </section>
+
+                    <!-- Fun Fact Section -->
+                <figure id="fun-fact">
+                    <h3>Fun Fact:</h3>
+                    <p>"One light year is a length spanning 5 trillion, 903 billion, 26 million, 326 thousand, and 255 miles"</p>
+                </figure>
+            </div>
+            
 
             <!-- About Me Section -->
             <section id="about">
@@ -63,17 +71,7 @@
                     <a href="https://github.com/jackf514/portfolio-site" target="_blank"><li>My Portfolio Website (You are here!): <em>A site for reading about me, my skills, and viewing my projects</em></li></a>
                     <a href="https://github.com/jackf514/mixedMessages" target="_blank"><li>Mixed Messages Project: <em>A Codecademy project that uses JS to randomly generate a message</em></li></a>
                 </ul>
-            </section>
-
-            <!-- Example Site Section -->
-            <section id="example-site">
-
-            </section>
-
-            <!-- Fun Fact Section -->
-            <figure id="fun-fact">
-
-            </figure>
+            </section>            
 
             <!-- Contact Section -->
             <section id="contact">
@@ -85,6 +83,7 @@
                     <a href="https://github.com/jackf514" target="_blank"><i class="fa-brands fa-github fa-3x"></i></a>
                 </div>
             </section>
+            
         </main>
     </body>
 </html>
