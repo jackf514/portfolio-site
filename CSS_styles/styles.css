@@ -83,14 +83,26 @@ section {
     padding: 10px;
 }
 
-#style-selector {
+.container {
+    display: flex;
+    align-items: center;
+    margin: 15px auto;
+}
+
+#fun-section {
     margin-top: 0px;
+    align-items: flex-start;
+}
+
+#style-selector {
+    margin-top: 1.2rem;
+    width: 40%;
     font-weight: 300;
     font-style: italic;
 }
 
 #style-selector span {
-    width: 40%;
+    width: 100%;
     margin-bottom: 10px;
     font-weight: 400;    
 }
@@ -128,6 +140,26 @@ select:focus {
 option:hover {
     color: hsla(210, 10%, 80%, 1);
     background-color: hsla(210, 15%, 6%, 1);
+}
+
+#fun-fact {
+    border: 2px solid hsla(210, 40%, 20%, 1);
+    border-radius: 5px;
+    margin: 15px auto;
+    padding: 10px;
+    width: 50%;
+    background-color: hsla(210, 15%, 6%, 1);    
+}
+
+#fun-fact h3 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color:hsla(210, 40%, 55%, 1);
+}
+
+#fun-fact p {
+    font-style: italic;
+    color:hsla(210, 10%, 80%, 1);
 }
 
 #about p {
@@ -192,25 +224,10 @@ option:hover {
     margin: 15px 45px;
 }
 
-.container.centered {
-    display: flex;
-    align-items: center;
-    margin: 15px auto;
-}
-
 i:hover, iconify-icon:hover {
     color:hsla(210, 50%, 40%, 1);
 }
 
 i:active, iconify-icon:active {
     color:hsla(210, 40%, 20%, 1);
-}
-
-#fun-fact {
-    border: 2px solid hsla(210, 40%, 20%, 1);
-    border-radius: 5px;
-    margin: 15px auto;
-    padding: 10px;
-    width: 50%;
-    background-color: hsla(210, 15%, 6%, 1);
 }
