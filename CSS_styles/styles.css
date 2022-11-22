@@ -13,12 +13,14 @@ body {
 header {
     background-color: hsla(210, 15%, 6%, 1);
     color: hsla(210, 40%, 50%, 1);
+    position: fixed;
     width: 100%;
     padding: 10px 0px;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     border-bottom: 1px solid hsla(210, 40%, 20%, 1);
+    z-index: 1;
 }
 
 h1 {
@@ -56,6 +58,8 @@ nav a {
 }
 
 main {
+    position: relative;
+    top: 75px;
     padding: 1.25rem 5%;
 }
 
