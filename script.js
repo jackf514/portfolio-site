@@ -4,7 +4,9 @@ const randomFacts = [
     'There is an area around a black hole called the Photon Sphere where light can orbit a black hole. This means that, if you were to stand in that area, you could theoretically see the back of your own head!',
     'Light tends to act like a wave, unless we try to directly observe it, then it behaves more like a particle instead',
     'There are more stars in the sky than grains of sand on the Earth',
-    'Some butterflys have nano-scale baffle structures in their wings that allow them to trap specific wavelengths of light, giving them their unique and vibrant colors'
+    'Some butterflys have nano-scale baffle structures in their wings that allow them to trap specific wavelengths of light, giving them their unique and vibrant colors',
+    'Neutron stars get their name by being so dense that protons and electrons are forced close enough together, that they become neutrons',
+    'Neutron stars are formed from the death of a star that is big enough to explode in a supernova but not big enough to form a black hole'
 ];
 
 const getFunFact = (randFacts) => {
