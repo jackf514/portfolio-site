@@ -19,11 +19,11 @@ document.getElementById("fact").innerHTML = getFunFact(randomFacts);
 const selectStyle = {
     default: {
         href: './CSS_styles/styles.css',
-        description: 'My original styling. This is what I came up with without any styling guidelines or restraints'
+        description: 'My original styling. This is what I came up with without any styling guidelines or constraints'
     },
     defaultLT: {
         href: './CSS_styles/default_lt.css',
-        description: 'My original styling but in a light theme rather than a dark theme. Only the colors have changed'
+        description: 'My original styling but in a light theme rather than a dark theme. Only the colors and some font weights have changed'
     },
     minimal: {
         href: './CSS_styles/minimal.css',

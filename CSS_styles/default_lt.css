@@ -1,0 +1,88 @@
+body {
+    color: hsla(210, 10%, 8%, 1);
+    background-color: hsla(210, 10%, 90%, 1);
+}
+
+header {
+    color: hsla(210, 15%, 6%, 1);
+    background-color: hsla(210, 40%, 50%, 1);
+    border-bottom: 1px solid hsla(210, 40%, 20%, 1);
+}
+
+h1 {
+    color:hsla(210, 25%, 10%, 1)
+}
+
+nav a {
+    color: hsla(210, 15%, 6%, 1);
+}
+
+h2 {
+    border-bottom: 2px solid hsla(210, 40%, 50%, 1);
+}
+
+#style-selector label {
+    font-weight: 400;   
+}
+
+select {
+    color: hsla(210, 15%, 6%, 1);
+    background-color:hsla(210, 40%, 60%, 1);
+}
+
+option:hover {
+    background-color: hsla(210, 10%, 80%, 1);
+    color: hsla(210, 15%, 6%, 1);
+}
+
+#style-selector p {
+    color:hsla(210, 40%, 20%, 1);
+    font-weight: 400;
+}
+
+#fun-fact {
+    border: 2px solid hsla(210, 40%, 20%, 1);
+    background-color: hsla(210, 40%, 50%, 1);    
+}
+
+#fun-fact h3 {
+    color:hsla(210, 15%, 8%, 1);
+}
+
+#fun-fact p {
+    color:hsla(210, 15%, 6%, 1);
+    font-weight: 400;
+}
+
+#projects li {
+    border: 1px solid hsla(210, 40%, 50%, 1);
+    color:hsla(210, 15%, 6%, 1);
+}
+
+#projects li em {
+    color:hsla(210, 10%, 40%, 1)
+}
+
+#projects li:hover {
+    background-color: hsla(210, 40%, 50%, 1);
+}
+
+#projects li:active {
+    background-color: hsla(210, 10%, 10%, 1);
+}
+
+#projects li:hover em {
+    color:hsla(210, 10%, 15%, 1)
+}
+
+#contact a {    
+    color:hsla(210, 50%, 40%, 1);
+}
+
+i:hover, iconify-icon:hover {
+    color:hsla(210, 50%, 20%, 1);
+}
+
+i:active, iconify-icon:active {
+    color:hsla(210, 80%, 15%, 1);
+}
