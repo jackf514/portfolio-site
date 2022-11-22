@@ -91,6 +91,7 @@ section {
     display: flex;
     align-items: center;
     margin: 15px auto;
+    clear: both;
 }
 
 #fun-section {
@@ -171,7 +172,7 @@ option:hover {
     display: inline-block;
 }
 
-#about div {
+#about-img {
     width: 30%;
     display: inline-flex;
     float: right;
@@ -179,7 +180,7 @@ option:hover {
 }
 
 #about img {
-    height: 250px;
+    height: 275px;
     width: auto;
 }
 
@@ -217,6 +218,11 @@ option:hover {
 
 #projects li em {
     color:hsla(210, 10%, 60%, 1)
+}
+
+#contact .rounded {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #contact p {

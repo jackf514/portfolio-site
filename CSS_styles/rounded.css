@@ -1,4 +1,8 @@
-section {
+.rounded {
     border: 2px solid hsla(210, 40%, 20%, 1);
     border-radius: 10px;
+}
+
+h2 {
+    border-bottom-width: 0px;
 }
