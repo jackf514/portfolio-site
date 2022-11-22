@@ -16,29 +16,31 @@ document.getElementById("fact").innerHTML = getFunFact(randomFacts);
 /*-----------*/
 
 /* Replace Stylesheet Section */
-const selectDesc = {
+const selectStyle = {
     default: {
-        style: 'default',
+        href: './CSS_styles/styles.css',
         description: 'My original styling. This is what I came up with without any styling guidelines or restraints'
     },
-    default_light: {
-        style: 'default-lt',
+    default_lt: {
+        href: './CSS_styles/default_lt.css',
         description: 'My original styling but in a light theme rather than a dark theme. Only the colors have changed'
     },
-    Minimal_Apple: {
-        style: 'minimal',
+    minimal: {
+        href: './CSS_styles/minimal.css',
         description: "This style is very modern and minimalist, inspired by Apple's web design"
     },
-    Round_Google: {
-        style: 'rounded',
+    rounded: {
+        href: './CSS_styles/rounded.css',
         description: "This style is fun and has lots of rounded edges, similar to Google's web design"
     }
 };
 
-let styleChoice = document.getElementById("style").value;
+
 const changeStyle = () => {
+    let styleChoice = '';
     styleChoice = document.getElementById("style").value;
+    document.getElementById('varStyle').href = selectStyle.styleChoice.href;
 }
 
-document.getElementById("style").addEventListener('change', styleChoice())
+document.getElementById("style").addEventListener("change", changeStyle);
 /*----------*/
