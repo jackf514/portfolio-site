@@ -1,8 +1,35 @@
+* {
+    font-family: 'Alexandria', sans-serif;
+}
+
 .rounded {
     border: 2px solid hsla(210, 40%, 20%, 1);
-    border-radius: 10px;
+    border-radius: 15px;
+    padding: 10px;
 }
 
 h2 {
     border-bottom-width: 0px;
+    margin-bottom: 0px;
+}
+
+#about-img img {
+    border-radius: 15px;
+}
+
+#projects li {
+    border-radius: 15px;
+}
+
+#contact a {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+select#style {
+    border-radius: 15px;
+}
+
+#fun-fact {
+    border-radius: 15px;
 }
