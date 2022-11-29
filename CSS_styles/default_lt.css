@@ -28,6 +28,7 @@ h2 {
 select {
     color: hsla(210, 15%, 6%, 1);
     background-color:hsla(210, 40%, 60%, 1);
+    width: 10rem;
 }
 
 option:hover {
