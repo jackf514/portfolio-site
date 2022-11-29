@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -51,14 +52,26 @@ nav ul {
 
 nav li {
     padding: 0.5rem;
-    
+    transition: font-size 0.1s;
 }
 
 nav a {
     text-decoration: none;
     color: hsla(210, 40%, 45%, 1);
     font-size: 1.375rem;
-    transition: color 0.5s;
+    transition: color 0.5s, font-size 0.1s;
+}
+
+nav li:hover {
+    border-bottom: 2px solid hsla(210, 40%, 20%, 1);
+    padding-bottom: 6px;
+    font-size: 1.425rem;
+}
+
+nav li:active {
+    color: hsla(210, 40%, 35%, 1);
+    font-size: 1.4rem;
+    border-bottom-width: 1px;
 }
 
 main {
