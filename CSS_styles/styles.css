@@ -58,7 +58,7 @@ nav a {
     text-decoration: none;
     color: hsla(210, 40%, 45%, 1);
     font-size: 1.375rem;
-    transition: font-size 0.1s, color 0.5s;
+    transition: font-size 0.1s, color 0.5s, box-shadow 0.25s;
 }
 
 nav li:hover {
