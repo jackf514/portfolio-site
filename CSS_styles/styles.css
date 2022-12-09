@@ -52,10 +52,12 @@ nav {
 nav ul {
     display: flex;
     list-style: none;
-    float: right;    
+    float: right;
+    align-items: center;
+    /*height: 50px;*/
 }
 
-nav li {
+nav a {
     padding: 0.5rem;
     transition: font-size 0.1s;
 }
@@ -67,13 +69,18 @@ nav a {
     transition: font-size 0.1s, color 0.5s, box-shadow 0.25s;
 }
 
-nav li:hover {
+nav a:hover {
     border-bottom: 2px solid hsla(210, 40%, 20%, 1);
     padding-bottom: 6px;
-    font-size: 1.425rem;
+    /*font-size: 1.425rem;*/
+    scale: 1.1;
 }
 
-nav li:active {
+nav li:hover {
+    scale: 1.1;
+}
+
+nav a:active {
     color: hsla(210, 40%, 35%, 1);
     font-size: 1.4rem;
     border-bottom-width: 1px;

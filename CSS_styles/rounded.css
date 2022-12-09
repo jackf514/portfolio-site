@@ -6,12 +6,12 @@ header {
     border-radius: 15px;
 }
 
-nav a {
+nav li {
     margin-left: 10px;
     
 }
 
-nav li {
+nav a {
     padding: 8px 12px;
     
     border: 1px solid hsla(210, 40%, 20%, 1) !important;
@@ -21,10 +21,11 @@ nav a, nav li {
     border-radius: 25px;
 }
 
-nav li:hover {
+nav a:hover {
     box-shadow: 0px 2px 3px hsla(210, 0%, 20%, 1);
-    font-size: 1.475rem;
-    padding-bottom: 6px;
+    /*font-size: 1.475rem;*/
+    scale: 1.1;
+    /*padding-bottom: 6px;*/
 }
 
 /*nav a:hover li {
