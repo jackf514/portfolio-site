@@ -8,11 +8,13 @@ header {
 
 nav a {
     margin-left: 10px;
-    border: 1px solid hsla(210, 40%, 20%, 1);
+    
 }
 
 nav li {
     padding: 8px 12px;
+    
+    border: 1px solid hsla(210, 40%, 20%, 1) !important;
 }
 
 nav a, nav li {
@@ -20,14 +22,21 @@ nav a, nav li {
 }
 
 nav li:hover {
-    /*padding: 6px 12px 5px 12px;*/
+    box-shadow: 0px 2px 3px hsla(210, 0%, 20%, 1);
+    font-size: 1.475rem;
+    padding-bottom: 6px;
+}
+
+/*nav a:hover li {
+    padding: 6px 12px 5px 12px;
     border-width: 0px;
-    font-size: 1.375rem;
+    
 }
 
 nav a:hover {
     box-shadow: 0px 3px 3px hsla(210, 0%, 20%, 1);
-}
+    font-size: 1.475rem;
+}*/
 
 section {
     border: 2px solid hsla(210, 40%, 20%, 1);    
