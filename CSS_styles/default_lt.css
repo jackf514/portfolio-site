@@ -55,7 +55,7 @@ option:hover {
     font-weight: 400;
 }
 
-#projects li {
+#projects a {
     border: 1px solid hsla(210, 40%, 50%, 1);
     color:hsla(210, 15%, 6%, 1);
 }
@@ -64,15 +64,15 @@ option:hover {
     color:hsla(210, 10%, 40%, 1)
 }
 
-#projects li:hover {
+#projects a:hover {
     background-color: hsla(210, 40%, 50%, 1);
 }
 
-#projects li:active {
+#projects a:active {
     background-color: hsla(210, 10%, 10%, 1);
 }
 
-#projects li:hover em {
+#projects a:hover em {
     color:hsla(210, 10%, 15%, 1)
 }
 
