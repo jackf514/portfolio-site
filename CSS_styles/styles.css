@@ -59,20 +59,16 @@ nav ul {
 
 nav a {
     padding: 0.5rem;
-    transition: font-size 0.1s;
-}
-
-nav a {
+    margin-left: 5px;
     text-decoration: none;
     color: hsla(210, 40%, 45%, 1);
     font-size: 1.375rem;
-    transition: font-size 0.1s, color 0.5s, box-shadow 0.25s;
+    transition: color 0.5s, box-shadow 0.25s, margin 0.2s;
 }
 
 nav a:hover {
     border-bottom: 2px solid hsla(210, 40%, 20%, 1);
     padding-bottom: 6px;
-    /*font-size: 1.425rem;*/
     scale: 1.1;
 }
 
@@ -225,30 +221,35 @@ option:hover {
 
 #projects ul {
     padding-left: 20px;
+    height: fit-content;
 }
 
 #projects a {
-    text-decoration: none;    
-}
-
-#projects li {
-    list-style: none;
+    text-decoration: none;
+    color:hsla(210, 10%, 80%, 1);
+    padding: 15px;
     border: 1px solid hsla(210, 40%, 20%, 1);
     border-radius: 5px;
-    padding: 15px;
-    margin: 10px 0px;
-    color:hsla(210, 10%, 80%, 1);
     transition: background-color 0s;
     transition: color 0.5s;
 }
 
-#projects li:hover {
+#projects li {
+    list-style: none;
+    margin: 40px 0px;
+}
+
+#projects li:last-child {
+    margin-bottom: 15px;
+}
+
+#projects a:hover {
     border-width: 2px;
     padding: 14px;
     background-color: hsla(210, 15%, 6%, 1);
 }
 
-#projects li:active {
+#projects a:active {
     border-width: 0px;
     background-color: hsla(210, 10%, 15%, 1);
 }

@@ -14,7 +14,7 @@ nav li {
 nav a {
     padding: 8px 12px;
     
-    border: 1px solid hsla(210, 40%, 20%, 1) !important;
+    border: 1px solid hsla(210, 40%, 20%, 1);
 }
 
 nav a, nav li {
@@ -22,22 +22,12 @@ nav a, nav li {
 }
 
 nav a:hover {
-    box-shadow: 0px 2px 3px hsla(210, 0%, 20%, 1);
-    /*font-size: 1.475rem;*/
+    box-shadow: 0px 3px 3px hsla(210, 0%, 5%, 1);
+    border-width: 1px;
     scale: 1.1;
-    /*padding-bottom: 6px;*/
+    margin-right: 10px;
+    margin-left: 10px;
 }
-
-/*nav a:hover li {
-    padding: 6px 12px 5px 12px;
-    border-width: 0px;
-    
-}
-
-nav a:hover {
-    box-shadow: 0px 3px 3px hsla(210, 0%, 20%, 1);
-    font-size: 1.475rem;
-}*/
 
 section {
     border: 2px solid hsla(210, 40%, 20%, 1);    
@@ -50,6 +40,12 @@ section {
 
 #fun-fact {
     box-shadow: 0px 3px 3px hsla(210, 0%, 5%, 1);
+    border-radius: 15px;
+}
+
+select#style {
+    border-radius: 15px;
+    width: 15.5rem;
 }
 
 h2 {
@@ -62,8 +58,12 @@ h2 {
     border-radius: 15px;
 }
 
-#projects li {
+#projects a {
     border-radius: 25px;
+}
+
+#projects a:hover {
+    scale: 2.1;
 }
 
 #contact a {
@@ -71,11 +71,3 @@ h2 {
     margin-top: 0px;
 }
 
-select#style {
-    border-radius: 15px;
-    width: 15.5rem;
-}
-
-#fun-fact {
-    border-radius: 15px;
-}
