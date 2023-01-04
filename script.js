@@ -27,10 +27,6 @@ const selectStyle = {
         href: './CSS_styles/default_lt.css',
         description: 'My original styling but in a light theme rather than a dark theme. Only the colors and some font weights have changed'
     },
-    minimal: {
-        href: './CSS_styles/minimal.css',
-        description: "This style is very modern and minimalist, inspired by Apple's web design"
-    },
     rounded: {
         href: './CSS_styles/rounded.css',
         description: "This style is fun and has lots of rounded edges, similar to Google's web design"
