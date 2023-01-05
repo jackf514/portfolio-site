@@ -174,6 +174,21 @@ section {
     clear: both;
 }
 
+@media only screen and (max-width: 550px) {
+    h2 {
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    html {
+        font-size: 15px;
+    }
+}
+
 #fun-section {
     margin-top: 0px;
     align-items: flex-start;
@@ -321,6 +336,22 @@ option:hover {
     }    
 }
 
+@media only screen and (max-width: 550px) {
+    #about-img {
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    #about img {
+        height: 175px;
+    }
+
+    #about p {
+        display: inline-block;
+    }
+}
+
 #projects p {
     width: 100%;
     margin-bottom: 10px;
@@ -374,6 +405,10 @@ option:hover {
     color:hsla(210, 10%, 60%, 1);
 }
 
+#projects .pr_mobile {
+    display: none;
+}
+
 @media only screen and (max-width: 900px) {
     #projects a em {
         display: inline-block;
@@ -386,6 +421,19 @@ option:hover {
 @media only screen and (max-width: 635px) {
     #projects a em {
         font-size: 0.85rem;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    #projects .pr_desktop {
+        display: none;
+    }
+
+    #projects .pr_mobile {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        font-size: 1.1rem;
     }
 }
 
