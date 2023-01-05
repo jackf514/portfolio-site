@@ -115,6 +115,20 @@ nav a:active {
     }
 }
 
+@media only screen and (max-width: 635px) {
+    nav.mobile i {
+        font-size: 1.4rem;
+    }
+
+    nav.mobile li {
+        padding: 0px 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
+
 main {
     position: relative;
     top: 75px;
@@ -369,6 +383,12 @@ option:hover {
     }
 }
 
+@media only screen and (max-width: 635px) {
+    #projects a em {
+        font-size: 0.85rem;
+    }
+}
+
 #contact .rounded {
     display: flex;
     flex-wrap: wrap;
@@ -384,10 +404,32 @@ option:hover {
     transition: color 0.25s;
 }
 
+a.mid-icon {
+    display: none;
+}
+
 i:hover, iconify-icon:hover {
     color:hsla(210, 50%, 40%, 1);
 }
 
 i:active, iconify-icon:active {
     color:hsla(210, 40%, 20%, 1);
+}
+
+@media only screen and (max-width: 635px) {
+    #contact i {
+        font-size: 2.25rem;
+    }
+
+    a.large-icon {
+        display: none;
+    }
+
+    a.mid-icon {
+        display: inline-block;
+    }
+
+    #contact a {
+        margin: 15px 30px;
+    }
 }
