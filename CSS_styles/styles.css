@@ -43,6 +43,10 @@ h1, #title a {
     width: fit-content;
 }
 
+h1.initials, h1.short {
+    display: none;
+}
+
 nav.mobile {
     display: none;
 }
@@ -126,6 +130,17 @@ nav a:active {
 
     h1 {
         font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    h1.full {
+        display: none;
+    }
+
+    h1.short {
+        display: inline-flex;
+        font-size: 1.875rem;
     }
 }
 
@@ -284,6 +299,12 @@ option:hover {
 
     #fun-fact {
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #style-selector span {
+        font-size: 0.9rem;
     }
 }
 
