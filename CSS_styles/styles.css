@@ -169,7 +169,6 @@ h2 {
 p {
     line-height: 1.5rem;
     font-weight: 300;
-    padding-left: 10px;
 }
 
 section {
@@ -187,6 +186,16 @@ section {
     align-items: center;
     margin: 15px auto;
     clear: both;
+}
+
+.rounded {
+    padding: 0px 10px;
+}
+
+@media only screen and (max-width: 550px) {
+    .rounded {
+        padding: 0px 5px;
+    }
 }
 
 @media only screen and (max-width: 550px) {
@@ -304,6 +313,25 @@ option:hover {
 
 @media only screen and (max-width: 480px) {
     #style-selector span {
+        text-align: center;
+    }
+
+    form label {
+        display: none;
+    }
+
+    form {
+        width: 100%;
+        padding: 5px 10px;
+    }
+
+    form select {
+        width: 100%;
+        height: 2.5rem;
+        font-size: 1rem;
+    }
+
+    #style-selector p {
         font-size: 0.9rem;
     }
 }
