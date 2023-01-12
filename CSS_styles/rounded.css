@@ -8,13 +8,11 @@ header {
 
 nav li {
     margin-left: 10px;
-    
 }
 
 nav a {
     padding: 8px 12px;
-    
-    border: 1px solid hsla(210, 40%, 20%, 1);
+    border: 2px solid hsla(210, 40%, 20%, 1);
 }
 
 nav a, nav li {
@@ -29,6 +27,81 @@ nav a:hover {
     margin-left: 10px;
 }
 
+@media only screen and (max-width: 1095px) {
+    #title a, h1 {
+        font-size: 2.5rem;
+    }
+
+    nav a {
+        font-size: 1.25rem;
+    }
+
+    nav.desktop {
+        padding-right: 3%;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    nav.desktop {
+        display: none;
+    }
+
+    nav.mobile {
+        display: inline-block;
+        padding-right: 5%;
+    }
+
+    nav.mobile a {
+        border: none;
+        margin-left: 15px;
+    }
+
+    nav.mobile i {
+        font-size: 1.75rem;
+    }
+
+    nav a:hover {
+        margin-left: 0px;
+        margin-right: 0px;
+        border: 2px solid hsla(210, 40%, 20%, 1);
+        background-color: hsla(210, 40%, 10%, 0.25);
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    nav.mobile li {
+        margin-left: 0px;
+    }
+
+    nav.mobile a {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    h1.full {
+        font-size: 2rem;;
+    }
+
+    nav.mobile i {
+        font-size: 1.5rem;
+    }
+
+    /*h1.short {
+        display: inline-flex;
+    }*/
+}
+
+@media only screen and (max-width: 550px) {
+    h1.full {
+        display: none;
+    }
+
+    h1.short {
+        display: inline-flex;
+    }
+}
+
 section {
     border: 2px solid hsla(210, 40%, 20%, 1);    
     border-radius: 15px;
@@ -41,6 +114,39 @@ section {
 #fun-fact {
     box-shadow: 0px 3px 3px hsla(210, 0%, 5%, 1);
     border-radius: 15px;
+}
+
+#fun-section label, #fun-section select {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 1000px) {
+    #style-selector {
+        width: 50%;
+    }
+
+    #fun-fact {
+        width: 45%;
+    }
+
+}
+
+@media only screen and (max-width: 830px) {
+    #style-selector {
+        width: 100%;
+    }
+
+    #fun-fact {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    select#style {
+        width: 100% !important;
+        margin-left: 0px;
+    }
 }
 
 select#style {
@@ -60,10 +166,45 @@ h2 {
 
 #projects a {
     border-radius: 25px;
+    transition: scale 0.25s;
 }
 
 #projects a:hover {
-    scale: 2.1;
+    scale: 1.02;
+}
+
+@media only screen and (max-width: 1000px) {
+    #projects em {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    #projects em {
+        display: inline-block;
+        width: 100%;
+    }
+
+    #projects a {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #projects a em {
+        display: none;
+    }
+
+    #projects a.pr_desktop {
+        display: none;
+    }
+
+    #projects a.pr_mobile {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        font-size: 1.1rem;
+    }
 }
 
 #contact a {
